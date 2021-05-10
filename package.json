@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node C:/Users/deepa/AppData/Roaming/npm/node_modules/pm2/bin/pm2 start ./server.js --name hello_aws --log ../logs/app.log",
-	"stop": "node C:/Users/deepa/AppData/Roaming/npm/node_modules/pm2/bin/pm2 stop hello_aws",
+	"start": "node ./node_modules/pm2/bin/pm2 start ./server.js --name hello_aws --log ../logs/app.log",
+	"stop": "node ./node_modules/pm2/bin/pm2 stop hello_aws",
 	"build": "echo 'Building aws-bootstrap app...'"
   },
   "dependencies":{
